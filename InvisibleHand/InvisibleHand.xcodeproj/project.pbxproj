@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C28B6DAD1F05DA9500BBAD40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DAC1F05DA9500BBAD40 /* main.m */; };
+		C28B6DB01F05DA9500BBAD40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DAF1F05DA9500BBAD40 /* AppDelegate.m */; };
+		C28B6DB31F05DA9500BBAD40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DB21F05DA9500BBAD40 /* ViewController.m */; };
+		C28B6DB61F05DA9500BBAD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DB41F05DA9500BBAD40 /* Main.storyboard */; };
+		C28B6DB81F05DA9500BBAD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DB71F05DA9500BBAD40 /* Assets.xcassets */; };
+		C28B6DBB1F05DA9500BBAD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DB91F05DA9500BBAD40 /* LaunchScreen.storyboard */; };
+		C28B6DC61F05DA9500BBAD40 /* InvisibleHandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DC51F05DA9500BBAD40 /* InvisibleHandTests.m */; };
+		C28B6DD11F05DA9500BBAD40 /* InvisibleHandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DD01F05DA9500BBAD40 /* InvisibleHandUITests.m */; };
+		C28B6DE01F05DC4000BBAD40 /* BankingSourceCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DDF1F05DC4000BBAD40 /* BankingSourceCollectionController.m */; };
+		C28B6DE71F05E13600BBAD40 /* boa.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE11F05E13600BBAD40 /* boa.png */; };
+		C28B6DE81F05E13600BBAD40 /* CapitalOne.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE21F05E13600BBAD40 /* CapitalOne.png */; };
+		C28B6DE91F05E13600BBAD40 /* charles_schwab.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE31F05E13600BBAD40 /* charles_schwab.png */; };
+		C28B6DEA1F05E13600BBAD40 /* chase.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE41F05E13600BBAD40 /* chase.png */; };
+		C28B6DEB1F05E13600BBAD40 /* citi.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE51F05E13600BBAD40 /* citi.png */; };
+		C28B6DEC1F05E13600BBAD40 /* Wells_Fargo.png in Resources */ = {isa = PBXBuildFile; fileRef = C28B6DE61F05E13600BBAD40 /* Wells_Fargo.png */; };
+		C28B6DEF1F06FFD600BBAD40 /* ProviderLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28B6DEE1F06FFD600BBAD40 /* ProviderLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28B6DC21F05DA9500BBAD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28B6DA01F05DA9500BBAD40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B6DA71F05DA9500BBAD40;
+			remoteInfo = InvisibleHand;
+		};
+		C28B6DCD1F05DA9500BBAD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28B6DA01F05DA9500BBAD40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B6DA71F05DA9500BBAD40;
+			remoteInfo = InvisibleHand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C28B6DA81F05DA9500BBAD40 /* InvisibleHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvisibleHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B6DAC1F05DA9500BBAD40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C28B6DAE1F05DA9500BBAD40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C28B6DAF1F05DA9500BBAD40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C28B6DB11F05DA9500BBAD40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C28B6DB21F05DA9500BBAD40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C28B6DB51F05DA9500BBAD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28B6DB71F05DA9500BBAD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28B6DBA1F05DA9500BBAD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C28B6DBC1F05DA9500BBAD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28B6DC11F05DA9500BBAD40 /* InvisibleHandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvisibleHandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B6DC51F05DA9500BBAD40 /* InvisibleHandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvisibleHandTests.m; sourceTree = "<group>"; };
+		C28B6DC71F05DA9500BBAD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28B6DCC1F05DA9500BBAD40 /* InvisibleHandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvisibleHandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B6DD01F05DA9500BBAD40 /* InvisibleHandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvisibleHandUITests.m; sourceTree = "<group>"; };
+		C28B6DD21F05DA9500BBAD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28B6DDE1F05DC4000BBAD40 /* BankingSourceCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankingSourceCollectionController.h; path = ../BankingSourceCollectionController.h; sourceTree = "<group>"; };
+		C28B6DDF1F05DC4000BBAD40 /* BankingSourceCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankingSourceCollectionController.m; path = ../BankingSourceCollectionController.m; sourceTree = "<group>"; };
+		C28B6DE11F05E13600BBAD40 /* boa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boa.png; path = ../boa.png; sourceTree = "<group>"; };
+		C28B6DE21F05E13600BBAD40 /* CapitalOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CapitalOne.png; path = ../CapitalOne.png; sourceTree = "<group>"; };
+		C28B6DE31F05E13600BBAD40 /* charles_schwab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charles_schwab.png; path = ../charles_schwab.png; sourceTree = "<group>"; };
+		C28B6DE41F05E13600BBAD40 /* chase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chase.png; path = ../chase.png; sourceTree = "<group>"; };
+		C28B6DE51F05E13600BBAD40 /* citi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = citi.png; path = ../citi.png; sourceTree = "<group>"; };
+		C28B6DE61F05E13600BBAD40 /* Wells_Fargo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wells_Fargo.png; path = ../Wells_Fargo.png; sourceTree = "<group>"; };
+		C28B6DED1F06FFD600BBAD40 /* ProviderLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderLoginViewController.h; sourceTree = "<group>"; };
+		C28B6DEE1F06FFD600BBAD40 /* ProviderLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28B6DA51F05DA9500BBAD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DBE1F05DA9500BBAD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DC91F05DA9500BBAD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C28B6D9F1F05DA9500BBAD40 = {
+			isa = PBXGroup;
+			children = (
+				C28B6DAA1F05DA9500BBAD40 /* InvisibleHand */,
+				C28B6DC41F05DA9500BBAD40 /* InvisibleHandTests */,
+				C28B6DCF1F05DA9500BBAD40 /* InvisibleHandUITests */,
+				C28B6DA91F05DA9500BBAD40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28B6DA91F05DA9500BBAD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28B6DA81F05DA9500BBAD40 /* InvisibleHand.app */,
+				C28B6DC11F05DA9500BBAD40 /* InvisibleHandTests.xctest */,
+				C28B6DCC1F05DA9500BBAD40 /* InvisibleHandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28B6DAA1F05DA9500BBAD40 /* InvisibleHand */ = {
+			isa = PBXGroup;
+			children = (
+				C28B6DDE1F05DC4000BBAD40 /* BankingSourceCollectionController.h */,
+				C28B6DDF1F05DC4000BBAD40 /* BankingSourceCollectionController.m */,
+				C28B6DAE1F05DA9500BBAD40 /* AppDelegate.h */,
+				C28B6DAF1F05DA9500BBAD40 /* AppDelegate.m */,
+				C28B6DB11F05DA9500BBAD40 /* ViewController.h */,
+				C28B6DB21F05DA9500BBAD40 /* ViewController.m */,
+				C28B6DB41F05DA9500BBAD40 /* Main.storyboard */,
+				C28B6DB71F05DA9500BBAD40 /* Assets.xcassets */,
+				C28B6DB91F05DA9500BBAD40 /* LaunchScreen.storyboard */,
+				C28B6DBC1F05DA9500BBAD40 /* Info.plist */,
+				C28B6DAB1F05DA9500BBAD40 /* Supporting Files */,
+				C28B6DED1F06FFD600BBAD40 /* ProviderLoginViewController.h */,
+				C28B6DEE1F06FFD600BBAD40 /* ProviderLoginViewController.m */,
+			);
+			path = InvisibleHand;
+			sourceTree = "<group>";
+		};
+		C28B6DAB1F05DA9500BBAD40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28B6DE11F05E13600BBAD40 /* boa.png */,
+				C28B6DE21F05E13600BBAD40 /* CapitalOne.png */,
+				C28B6DE31F05E13600BBAD40 /* charles_schwab.png */,
+				C28B6DE41F05E13600BBAD40 /* chase.png */,
+				C28B6DE51F05E13600BBAD40 /* citi.png */,
+				C28B6DE61F05E13600BBAD40 /* Wells_Fargo.png */,
+				C28B6DAC1F05DA9500BBAD40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C28B6DC41F05DA9500BBAD40 /* InvisibleHandTests */ = {
+			isa = PBXGroup;
+			children = (
+				C28B6DC51F05DA9500BBAD40 /* InvisibleHandTests.m */,
+				C28B6DC71F05DA9500BBAD40 /* Info.plist */,
+			);
+			path = InvisibleHandTests;
+			sourceTree = "<group>";
+		};
+		C28B6DCF1F05DA9500BBAD40 /* InvisibleHandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C28B6DD01F05DA9500BBAD40 /* InvisibleHandUITests.m */,
+				C28B6DD21F05DA9500BBAD40 /* Info.plist */,
+			);
+			path = InvisibleHandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28B6DA71F05DA9500BBAD40 /* InvisibleHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B6DD51F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHand" */;
+			buildPhases = (
+				C28B6DA41F05DA9500BBAD40 /* Sources */,
+				C28B6DA51F05DA9500BBAD40 /* Frameworks */,
+				C28B6DA61F05DA9500BBAD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvisibleHand;
+			productName = InvisibleHand;
+			productReference = C28B6DA81F05DA9500BBAD40 /* InvisibleHand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28B6DC01F05DA9500BBAD40 /* InvisibleHandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B6DD81F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHandTests" */;
+			buildPhases = (
+				C28B6DBD1F05DA9500BBAD40 /* Sources */,
+				C28B6DBE1F05DA9500BBAD40 /* Frameworks */,
+				C28B6DBF1F05DA9500BBAD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28B6DC31F05DA9500BBAD40 /* PBXTargetDependency */,
+			);
+			name = InvisibleHandTests;
+			productName = InvisibleHandTests;
+			productReference = C28B6DC11F05DA9500BBAD40 /* InvisibleHandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C28B6DCB1F05DA9500BBAD40 /* InvisibleHandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B6DDB1F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHandUITests" */;
+			buildPhases = (
+				C28B6DC81F05DA9500BBAD40 /* Sources */,
+				C28B6DC91F05DA9500BBAD40 /* Frameworks */,
+				C28B6DCA1F05DA9500BBAD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28B6DCE1F05DA9500BBAD40 /* PBXTargetDependency */,
+			);
+			name = InvisibleHandUITests;
+			productName = InvisibleHandUITests;
+			productReference = C28B6DCC1F05DA9500BBAD40 /* InvisibleHandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28B6DA01F05DA9500BBAD40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					C28B6DA71F05DA9500BBAD40 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C28B6DC01F05DA9500BBAD40 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C28B6DA71F05DA9500BBAD40;
+					};
+					C28B6DCB1F05DA9500BBAD40 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C28B6DA71F05DA9500BBAD40;
+					};
+				};
+			};
+			buildConfigurationList = C28B6DA31F05DA9500BBAD40 /* Build configuration list for PBXProject "InvisibleHand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28B6D9F1F05DA9500BBAD40;
+			productRefGroup = C28B6DA91F05DA9500BBAD40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28B6DA71F05DA9500BBAD40 /* InvisibleHand */,
+				C28B6DC01F05DA9500BBAD40 /* InvisibleHandTests */,
+				C28B6DCB1F05DA9500BBAD40 /* InvisibleHandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28B6DA61F05DA9500BBAD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B6DE91F05E13600BBAD40 /* charles_schwab.png in Resources */,
+				C28B6DE71F05E13600BBAD40 /* boa.png in Resources */,
+				C28B6DEA1F05E13600BBAD40 /* chase.png in Resources */,
+				C28B6DBB1F05DA9500BBAD40 /* LaunchScreen.storyboard in Resources */,
+				C28B6DEC1F05E13600BBAD40 /* Wells_Fargo.png in Resources */,
+				C28B6DEB1F05E13600BBAD40 /* citi.png in Resources */,
+				C28B6DB81F05DA9500BBAD40 /* Assets.xcassets in Resources */,
+				C28B6DE81F05E13600BBAD40 /* CapitalOne.png in Resources */,
+				C28B6DB61F05DA9500BBAD40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DBF1F05DA9500BBAD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DCA1F05DA9500BBAD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28B6DA41F05DA9500BBAD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B6DB31F05DA9500BBAD40 /* ViewController.m in Sources */,
+				C28B6DE01F05DC4000BBAD40 /* BankingSourceCollectionController.m in Sources */,
+				C28B6DB01F05DA9500BBAD40 /* AppDelegate.m in Sources */,
+				C28B6DEF1F06FFD600BBAD40 /* ProviderLoginViewController.m in Sources */,
+				C28B6DAD1F05DA9500BBAD40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DBD1F05DA9500BBAD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B6DC61F05DA9500BBAD40 /* InvisibleHandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B6DC81F05DA9500BBAD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B6DD11F05DA9500BBAD40 /* InvisibleHandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28B6DC31F05DA9500BBAD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B6DA71F05DA9500BBAD40 /* InvisibleHand */;
+			targetProxy = C28B6DC21F05DA9500BBAD40 /* PBXContainerItemProxy */;
+		};
+		C28B6DCE1F05DA9500BBAD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B6DA71F05DA9500BBAD40 /* InvisibleHand */;
+			targetProxy = C28B6DCD1F05DA9500BBAD40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C28B6DB41F05DA9500BBAD40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28B6DB51F05DA9500BBAD40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C28B6DB91F05DA9500BBAD40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28B6DBA1F05DA9500BBAD40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28B6DD31F05DA9500BBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28B6DD41F05DA9500BBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28B6DD61F05DA9500BBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvisibleHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C28B6DD71F05DA9500BBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvisibleHand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C28B6DD91F05DA9500BBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvisibleHandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvisibleHand.app/InvisibleHand";
+			};
+			name = Debug;
+		};
+		C28B6DDA1F05DA9500BBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvisibleHandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvisibleHand.app/InvisibleHand";
+			};
+			name = Release;
+		};
+		C28B6DDC1F05DA9500BBAD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvisibleHandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvisibleHand;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C28B6DDD1F05DA9500BBAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvisibleHandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zk.InvisibleHandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvisibleHand;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28B6DA31F05DA9500BBAD40 /* Build configuration list for PBXProject "InvisibleHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B6DD31F05DA9500BBAD40 /* Debug */,
+				C28B6DD41F05DA9500BBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28B6DD51F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B6DD61F05DA9500BBAD40 /* Debug */,
+				C28B6DD71F05DA9500BBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C28B6DD81F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B6DD91F05DA9500BBAD40 /* Debug */,
+				C28B6DDA1F05DA9500BBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C28B6DDB1F05DA9500BBAD40 /* Build configuration list for PBXNativeTarget "InvisibleHandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B6DDC1F05DA9500BBAD40 /* Debug */,
+				C28B6DDD1F05DA9500BBAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28B6DA01F05DA9500BBAD40 /* Project object */;
+}
